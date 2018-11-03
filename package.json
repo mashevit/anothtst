@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "description": "Example project from an angular.io guide.",
-  "main": "server.js",
+  "main": "index.js",
+  "engines": {
+    "node": "10.x"
+  },
   "scripts": {
     "lint": "tslint ./src/**/*.ts -t verbose",
-    "start": "node server.js",
+    "start": "node index.js",
     "test": "ng test",
     "build": "ng build --prod",
     "e2e": "ng e2e",
@@ -29,7 +32,9 @@
     "angular-in-memory-web-api": "^0.6.0",
     "core-js": "^2.5.4",
     "rxjs": "^6.3.0",
-    "zone.js": "~0.8.26"
+    "zone.js": "~0.8.26",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.10.4",
@@ -52,7 +57,11 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
-    "typescript": "~3.1.1"
+    "typescript": "~3.1.1",
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
   },
-  "repository": {}
+  "repository": {   
+    "type": "git",
+    "url": "https://github.com/mashevit/anothtst"}
 }
