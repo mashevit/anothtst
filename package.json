@@ -12,7 +12,7 @@
     "lint": "tslint ./src/**/*.ts -t verbose",
     "start": "node server.js",
     "test": "ng test",
-    "build": "ng build --prod",
+    "build": "ng build",
     "e2e": "ng e2e",
     "ng": "ng",
     "postinstall": "ng build --aot -prod"
