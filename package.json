@@ -15,7 +15,7 @@
     "build": "ng build",
     "e2e": "ng e2e",
     "ng": "ng",
-    "postinstall": "ng build --aot -prod"
+    "postinstall": "ng build --aot --prod"
   },
   "keywords": [],
   "author": "",
