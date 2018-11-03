@@ -38,6 +38,7 @@
     "rxjs": "^6.3.0",
     "zone.js": "~0.8.26",
     "typescript": "~3.1.1",
+    "ejs": "^2.5.6",
     "express": "^4.15.2"
   },
   "devDependencies": {
